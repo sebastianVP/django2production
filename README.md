@@ -13,4 +13,11 @@ Crearemos una aplicacion web local, para luego instalarlo en un servidor web pub
 
 Aprender donde y como se puede desplegar una aplicacion de Django para producción.
 
+### Pasos siguiente:
+
+* Realizar algunos cambios en la configuracion del proyecto
+* Elejir un entorno para alojar la aplicacion Django.
+* Elejir un entorno para alojar cualquier archivo estático.
+* Configurar una estructra de nivel de produccion para servir al sitio web.
+
  
