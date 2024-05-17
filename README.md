@@ -57,3 +57,12 @@ Las configuraciones críticas que debes verificar son:
 Los documentos de Django sugieren que es mejor cargar la información secreta desde una variable de entorno o leerla desde un archivo exclusivo del servidor. Cambiemos la aplicación LocalLibrary para que leamos nuestras variables SECRET_KEY y DEBUG de las variables de entorno si están definidas, recurriendo a los valores definidos en un archivo .env en la raíz y, por último, usando los valores predeterminados en el archivo de configuración. Esto es muy flexible ya que permite cualquier configuración soportada por el servidor de hosting.
 
 Para leer los valores del entorno de un archivo usaremos python-dotenv. Esta es una biblioteca para leer pares clave-valor de un archivo y usarlos como variables de entorno, pero solo si la variable de entorno correspondiente no está definida
+
+## PythonAnywhere
+
+1. Consoles
+2. Bash
+3. 02:35 ~ $ mkvirtualenv  --python=python3.10 env_local_library
+Comandos Bash
+- deactivate
+- workon env_local_library
